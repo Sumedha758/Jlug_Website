@@ -47,6 +47,7 @@ body {
     margin-top: 21px;
     margin-bottom: 10px;
 }
+
 .social-link {
     opacity: 0.7;
     font-size: 35px;
@@ -69,6 +70,12 @@ a.Twitter {
 .Twtr:hover {
     transform: translateY(5px);
 
+}
+a.YouTube {
+    color:red;
+}
+.Ytb:hover {
+    transform: translateY(5px);
 }
 .social-link:hover,
 .social-link:focus {
