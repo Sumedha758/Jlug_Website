@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    scroll-behavior: auto;
+	scroll-behavior: smooth;
+	animation: fadeInAnimation ease 3s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+
+}
+nav{
+    top: 0;
+    position: sticky;
+    background:white;
+    padding-left: 100px;
+
+}
+.logo{
+    float: left;
+    /*padding-left: 100px;*/
+}
+#logo{
+  width: 65px;
+  height: 65px;
+}
+nav .container{
+    height: 65px;
+    width: 90%;
+    margin: 0 auto;
+    padding:  10px;
+    box-shadow: black;
+}
+nav .container{
+    text-align: right;
+}
+nav .container ul li{
+    display: inline-block;
+}
+nav .container ul li a{
+    display: inline-block;
+    font-family: cooper;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: black;
+}
+nav .container ul li.active{
+    background-color: yellow ;
+    border-radius: 17px;
+    transition: 0.3 ease background-color ;
+}
+nav .container ul li.active a{
+    color: black
+}
+nav .container ul li a:hover {
+    background-color: yellow ;
+    border-radius: 17px ;
+    transition: 0.3 ease background-color ;
+
+}
+
+.menu-toggle{
+    color: blue;
+    float: right;
+    left: 90%;
+    margin-top: 3px;
+    line-height: 50px;
+    font-size: 35px;
+    cursor: pointer;
+    display: none;
+}
+@media(max-width:951px){
+    nav{
+        padding-left: 20px;
+    }
+}
+@media(max-width:791px){
+    .menu-toggle{
+        display: block;
+        padding-right: 15px;
+        color:black;
+    }
+    .container {
+        /*display: none;*/
+        position:absolute;        
+        top:65px;
+        left: -100%;
+        transition: 0.5s;
+    }
+    .container.active{
+        left: 0;
+    }
+    nav .container ul li{
+        display: flex;
+        text-align: left;
+    }
+    nav .container ul li a{
+        color: whitesmoke
+        
+    }
+    nav .container ul li a:hover{
+        width: 100%;
+        color: black;
+        background: none;
+
+    }
+    nav .container ul{
+        text-align: center;
+    }   
+    
+    
+}
+section{
+    height: 100vh;
+    width: 100%;    
+    align-items: centre;
+    justify-content: center;
+    display: flex;
+    
+}
+#home{
+    background: linear-gradient(to right top,#ad5389, #3c1053);
+    transition: 2s ease;
+}
+#about{
+    background: linear-gradient(to right top,#333333 ,#dd1818 );
+    
+}
+#contact{
+    background: linear-gradient(to right top,#ad5389, #3c1053);
+}
+#events{
+    background: linear-gradient(to right top, #bc4e9c,#f80759 );
+    
+}
