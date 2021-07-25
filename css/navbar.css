@@ -3,13 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
-body{
-    scroll-behavior: auto;
-	scroll-behavior: smooth;
-	animation: fadeInAnimation ease 3s;
-	animation-iteration-count: 1;
-	animation-fill-mode: forwards;
-
+html{
+    scroll-behavior: smooth;
+    animation: fadeInAnimation ease 3s;
 }
 nav{
     top: 0;
