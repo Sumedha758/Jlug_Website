@@ -115,7 +115,7 @@ nav .container ul li a:hover {
   }
   nav .container ul li a {
     color: whitesmoke;
-    font-size: 24px;
+    font-size: 22px;
   }
   nav .container ul li a:hover {
     width: 100%;
@@ -125,6 +125,9 @@ nav .container ul li a:hover {
   nav .container ul {
     text-align: center;
   }
+  .linkbtn{
+    width: 95%;
+  }  
 }
 section {
   height: 100vh;
