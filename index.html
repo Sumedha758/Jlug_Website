@@ -1,99 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="icon" href="">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
-    <link rel="stylesheet" href="css/navbar.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" >
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Bungee&display=swap"
-      rel="stylesheet"
-    />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="icon" href="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Eczar:wght@600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Calistoga&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />"
 
-    <title>JlugWebsite</title>
-  </head>
-  <body>
-    <nav>
-      <div class="logo">
-        <img src="images\jlug_logo.png" id="logo" alt="" />
-      </div>
-      <div class="container">
-        <ul>
-          <li class="home"><a href="#home">Home</a></li>
-          <li class="about"><a href="#about">About Us</a></li>
-          <li class="events"><a href="#events">Events</a></li>
-          <li class="contact"><a href="#contact">Contact Us</a></li>
-          <li><a href="Timeline-Events(JLUG)/Timeline(events).html">Timeline</a></li>
-          <li><a class="btn--show-modal" href="#">Subscribe</a></li>
-        </ul>
-      </div>
-      <div class="menu-toggle">
-        <i class="fa fa-bars" aria-hidden="true"></i>
-      </div>
-    </nav>
 
-    <section id="home">
-      <header class="header" id="home">
-        <div class="header__title">
-          <h1 class="title__heading">JLUG</h1>
-          <h4 class="club__type">TECHNO CULTURAL SOCIETY</h4>
-          <button class="btn--text btn--scroll-to">Discover more</button>
+  <title>JlugWebsite</title>
+</head>
+
+<body>
+  <nav>
+    <div class="logo">
+      <img src="images\jlug_logo.png" id="logo" alt="" />
+    </div>
+    <div class="container">
+      <ul>
+        <li class="home"><a href="#home">Home</a></li>
+        <li class="about"><a href="#about">About Us</a></li>
+        <li class="events"><a href="#events">Events</a></li>
+        <li class="contact"><a href="#contact">Contact Us</a></li>
+        <li><a href="Timeline-Events(JLUG)/Timeline(events).html">Timeline</a></li>
+        <li><a class="btn--show-modal" href="#">Subscribe</a></li>
+      </ul>
+    </div>
+    <div class="menu-toggle">
+      <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+  </nav>
+
+  <section id="home">
+    <header class="header" id="home">
+      <div class="header__title">
+        <h1 class="title__heading">JLUG</h1>
+        <h4 class="club__type">TECHNO CULTURAL SOCIETY</h4>
+        <button class="btn--text btn--scroll-to">Discover more</button>
+      </div>
+    </header>
+
+    <div class="modal hidden">
+      <button class="close-modal">&times;</button>
+      <h2 class="modal__header">Subscribe To Get Notify</h2>
+      <form class="modal__form">
+        <label>First Name</label>
+        <input type="text" />
+        <label>Last Name</label>
+        <input type="text" />
+        <label>Email Address</label>
+        <input type="email" />
+        <button class="btn">Subscribe</button>
+      </form>
+    </div>
+    <div class="overlay hidden"></div>
+  </section>
+
+  <section id="about">
+    <h1>About</h1>
+  </section>
+
+  <section id="events">
+    <h1>Events</h1>
+  </section>
+
+  <section id="contact">
+    <div class="Contact-Page">
+      <div class="Contact-Card">
+        <div class="Information">
+          <h1 class="h1">GET IN TOUCH</h1>
+          <div class="Card-Image">
+            <img src="images/Contact-Card-Image.png" alt="Card Image">
+          </div>
+          <div class="Info">
+          </div>
+          <h2>Address</h2>
+          <p class="content">Jabalpur Engineering College</p>
+          <p class="content">Gokalpur, Jabalpur</p>
+          <p class="content">M.P</p>
+          <h2>Email Us</h2>
+          <p class="content">jlug.jec@gmail.com</p>
+          <ul class="social-list">
+            <li class="social-item Insta">
+              <a class="social-link Instagram" href="https://www.instagram.com/jlug_jec/"><i
+                  class="fab fa-instagram-square"></i></a></li>
+            <li class="social-item LIn">
+              <a class="social-link LinkedIn" href="https://in.linkedin.com/company/jlug-jec"><i
+                  class="fab fa-linkedin"></i></a></li>
+            <li class="social-item Twtr">
+              <a class="social-link Twitter" href="https://twitter.com/jlug20?lang=en"><i
+                  class="fab fa-twitter-square"></i></a></li>
+            <li class="social-item Ytb">
+              <a class="social-link YouTube" href="https://www.youtube.com/watch?v=MXKxREE_nPk">
+                <i class="fab fa-youtube-square"></i></a></li>
+            </li>
+          </ul>
         </div>
-      </header>
-
-      <div class="modal hidden">
-        <button class="close-modal">&times;</button>
-        <h2 class="modal__header">Subscribe To Get Notify</h2>
-        <form class="modal__form">
-          <label>First Name</label>
-          <input type="text" />
-          <label>Last Name</label>
-          <input type="text" />
-          <label>Email Address</label>
-          <input type="email" />
-          <button class="btn">Subscribe</button>
-        </form>
       </div>
-      <div class="overlay hidden"></div>
-    </section>
-
-      <section id="about">
-        <h1>About</h1>
-      </section>
-
-      <section id="events">
-        <h1>Events</h1>
-      </section>
-
-      <section id="contact">
-        <h1>Contact</h1>
-      </section>
+    </div>
+    </div>
+  </section>
 
 
-    <script src="javascript/navbar.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function(){
-            $('.menu-toggle').click(function(){
-                $('nav .container').toggleClass('active')
-            })
-        })
+  <script src="javascript/navbar.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $('.menu-toggle').click(function () {
+        $('nav .container').toggleClass('active')
+      })
+    })
 
-    </script>
+  </script>
 </body>
+
 </html>
