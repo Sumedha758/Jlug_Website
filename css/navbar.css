@@ -94,11 +94,14 @@ nav .container ul li a:hover {
     padding-right: 15px;
     color: black;
   }
-  .container {
+  nav .container {
     /*display: none;*/
-    position: absolute;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
     top: 65px;
     left: -100%;
+    background:linear-gradient(to right top,#ad5389, #3c1053);
     transition: 0.5s;
   }
   .container.active {
@@ -107,9 +110,12 @@ nav .container ul li a:hover {
   nav .container ul li {
     display: flex;
     text-align: left;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+
   }
   nav .container ul li a {
     color: whitesmoke;
+    font-size: 24px;
   }
   nav .container ul li a:hover {
     width: 100%;
