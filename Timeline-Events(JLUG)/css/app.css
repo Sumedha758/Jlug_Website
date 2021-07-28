@@ -645,7 +645,7 @@ span.divider.center {
 
 @media (max-width: 767px) {
   .panel-group.timeline .timeline-item .timeline-btn{
-    margin-left:-30px;
+    margin-left:-60px;
   }
   #ballWrapper{
 	  display: none;
