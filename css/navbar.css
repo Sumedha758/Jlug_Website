@@ -326,7 +326,7 @@ p {
   left: 50%;
   transform: translate(-50%, -50%);
   max-width: 60rem;
-  background-image: url(img/bg.png);
+  background-image: url(images/bg.png);
   padding: 5rem 6rem;
   box-shadow: 0 4rem 6rem rgba(0, 0, 0, 0.3);
   z-index: 1000;
