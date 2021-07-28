@@ -644,9 +644,9 @@ span.divider.center {
 }
 
 @media (max-width: 767px) {
-  /*.panel-group.timeline .timeline-item .timeline-btn{
-    display: none;
-  }*/
+  .panel-group.timeline .timeline-item .timeline-btn{
+    margin-left:-30px;
+  }
   #ballWrapper{
 	  display: none;
   }
