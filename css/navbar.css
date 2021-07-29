@@ -42,6 +42,7 @@ nav .container {
   width: 90%;
   margin: 0 auto;
   padding: 10px;
+  background: #e9edfd;
   box-shadow: black;
 }
 nav .container {
@@ -67,8 +68,7 @@ nav .container ul li.active a {
   color: black;
 }
 nav .container ul li a:hover {
-  color: yellow;
-  border-radius: 17px;
+  color: yellowgreen;
   transition: 0.3 ease background-color;
 }
 
@@ -90,19 +90,34 @@ nav .container ul li a:hover {
 @media (max-width: 791px) {
   .menu-toggle {
     display: block;
+    float: right;
     padding-right: 15px;
     color: black;
   }
+  nav{
+    padding-left:0;
+  }
+  
+  nav header{
+    position: absolute;
+    top:0;
+    width:100%;
+    background-color: #e9edfd;
+    display: block;
+  }  
   nav .container {
     /*display: none;*/
     position: fixed;
     width: 100%;
-    height: 100vh;
+    height: 50vh;
     top: 65px;
     left: -100%;
-    background:linear-gradient(to right top,#ad5389, #3c1053);
+    background: #e9edfd;
     transition: 0.5s;
   }
+  #logo{
+    float: left;
+  }  
   .container.active {
     left: 0;
   }
@@ -113,7 +128,7 @@ nav .container ul li a:hover {
 
   }
   nav .container ul li a {
-    color: whitesmoke;
+    color: black;
     font-size: 20px;
   }
   nav .container ul li a:hover {
@@ -121,7 +136,7 @@ nav .container ul li a:hover {
     color: black;
     background: none;
   }
-  nav .container ul {
+  nav .container ul li {
     text-align: center;
   }
   .linkbtn{
@@ -138,7 +153,9 @@ section {
 }
 
 #about {
+  height: 200vh;
   background: linear-gradient(to right top, #333333, #dd1818);
+  
 }
 #contact {
   /* background-image: url(../images/Contact-Page-Background.png); */
