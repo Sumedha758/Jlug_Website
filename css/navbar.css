@@ -15,8 +15,7 @@ body {
   padding: 0px;
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
-  color: #444;
-  line-height: 1.9;
+  color: #444;  
   background-color: #ffffff;
   background-size: 100% 100%;
 }
@@ -28,7 +27,7 @@ nav {
   top: 0;
   position: sticky;
   background: white;
-  padding-left: 100px;
+  padding-left: 50px;
 }
 .logo {
   float: left;
@@ -68,7 +67,7 @@ nav .container ul li.active a {
   color: black;
 }
 nav .container ul li a:hover {
-  background-color: yellow;
+  color: yellow;
   border-radius: 17px;
   transition: 0.3 ease background-color;
 }
@@ -94,11 +93,14 @@ nav .container ul li a:hover {
     padding-right: 15px;
     color: black;
   }
-  .container {
+  nav .container {
     /*display: none;*/
-    position: absolute;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
     top: 65px;
     left: -100%;
+    background:linear-gradient(to right top,#ad5389, #3c1053);
     transition: 0.5s;
   }
   .container.active {
@@ -107,9 +109,12 @@ nav .container ul li a:hover {
   nav .container ul li {
     display: flex;
     text-align: left;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+
   }
   nav .container ul li a {
     color: whitesmoke;
+    font-size: 20px;
   }
   nav .container ul li a:hover {
     width: 100%;
@@ -119,11 +124,15 @@ nav .container ul li a:hover {
   nav .container ul {
     text-align: center;
   }
+  .linkbtn{
+    width: 95%;
+  }  
 }
 section {
   height: 100vh;
   width: 100%;
   align-items: centre;
+  line-height: 1.9;
   /* justify-content: center; */
   display: flex;
 }
