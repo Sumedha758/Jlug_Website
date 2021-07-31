@@ -457,6 +457,146 @@ p {
   }
 }
 
+/* ///////////////////////////////////////////////////////////////////////////////////// */
+/* About Us */
+
+.container1 {
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 37px; 
+  }
+
+.container2 {
+    display: block;
+    width: 60%;
+    margin: 56px auto 10px auto;
+    text-align: center;
+    font-family: 'Calistoga', cursive;
+    color: #2943b8;
+    font-size: 45px;
+  }
+.para{
+    font: 1.2em "Open Sans", sans-serif;
+    color: #708090;
+    font-size: 20px;
+    padding: 1.5rem;
+    margin-top: 2rem;
+    position: relative;
+    display:inline-block;
+}
+
+
+.heading{
+    /* padding: 10px 256px;  */
+    font-family: 'Calistoga', cursive;
+    font-size: 50px;
+    color: #2943b8;
+}
+
+
+.image{
+    padding: 0rem 5rem 0rem 1rem;
+    max-width: 135px;
+    margin: auto;
+    display: block;
+  }
+
+.about-container{
+    background-image: url("blue-snow.png");
+    text-align: center;  
+    padding: 1px 5px; 
+}
+.item1 { grid-area: pg; }
+.item2 { grid-area: ss; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'pg pg ss ss'
+    'pg pg ss ss';
+  grid-gap: 20px;
+  /* background-color: #2196F3; */
+  padding: 10px;
+}
+
+.grid-container > div {
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  text-align: center;
+  padding: 40px 0px 0px 0px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlide{
+  width:500px;
+  height: 320px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  transition: background-color 0.6s ease;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media(max-width:895px) {
+  .container1{
+    display: block;
+    width: 60%;
+    margin: 56px auto;
+    align-items: center;
+    position: relative;
+    }
+    
+  .para{
+    margin-top: 0.2rem;
+  }
+
+  .mySlide{
+    width:90%;
+    height: 50%;
+  }
+
+  .slideshow-container{
+    align-items: center;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-areas:
+      'ss ss ss ss'
+      'pg pg pg pg';
+    grid-gap: 20px;
+    padding: 10px;
+  }
+
+  .grid-container > div {
+    padding:0px;
+  }  
+}
+
 
 /* ///////////////////////////////////////////////////////////////////////////////////// */
 /* Contact Us */
