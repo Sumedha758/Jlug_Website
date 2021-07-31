@@ -26,6 +26,8 @@ var linkHome = document.querySelector('nav .container .home a');
 var linkAbout = document.querySelector('nav .container .about a');
 var linkEvents = document.querySelector('nav .container .events a');
 var linkContact = document.querySelector('nav .container .contact a');
+var linkTimeline = document.querySelector('nav .container .timeline a');
+var linkSubscribe = document.querySelector('nav .container .subscribe a');
 
 
 linkHome.addEventListener("click", () => {
@@ -38,6 +40,12 @@ linkEvents.addEventListener("click", () => {
   container.classList.remove('active')
 });
 linkContact.addEventListener("click", () => {
+  container.classList.remove('active')
+});
+linkTimeline.addEventListener("click", () => {
+  container.classList.remove('active')
+});
+linkSubscribe.addEventListener("click", () => {
   container.classList.remove('active')
 });
 

@@ -7,6 +7,7 @@ padding: 0px;
 box-sizing: border-box;
 }
 
+
 @media only screen and (max-width: 600px) {
   .layer{
   position: relative;
@@ -63,7 +64,6 @@ box-sizing: border-box;
   font-size: 2rem;
   line-height: 1.5;
 }
-
 .box > h1{
   font-size: 3rem;
   font-family: 'Calistoga';
@@ -119,6 +119,7 @@ span{
     margin: 100px 100px;
   }
 }
+
 .penguin {
     position: relative;
     left: 450px;
