@@ -79,7 +79,8 @@ document.addEventListener('keydown', function (e) {
   }
 });
 
-//AboutUs Slideshow
+/////////////////////////////////////////////////////////////////////////
+//Implementing AboutUs Auto-Slideshow
 var slideIndex = 0;
     showSlides();
     
