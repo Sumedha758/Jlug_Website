@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+    <title>Event</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Calistoga&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <script src="event.js"></script>
+  <style>html,body{margin:0;height:100%;}body{background: url(images/blue-snow.png);}}
+  </style>
+  </head>
+<body>
+  <section id="Events">
+    <a href="../index.html">
+    <img src="images/jlug_logo.png" alt="" height="100px" width="100px" style="margin: 10px 30px;" > </a>
+    <div class="row">
+      <div class="form-popup" id="myForm">
+              <button type="button" class="BUTTON_CHX" style="position: relative;top: -30px;float: right;"onclick="closeForm()">×</button>
+              <h1>Content Writing Workshop</h1>
+              <p>The beginning of our 3-Day workshop was marked by the successful conduction of Content Writing workshop. Our speaker Poornima Shrivastava, an awesome content writer as well as a freelancer introduced students on how to get started with content writing. Our target audience, especially the newbies, showed lots of enthusiasm and were given an overview on the basics of content writing. Content Writing is all about connecting with your readers. Towards the end of the workshop various crucial tips were also provided to the students for effective content writing.</p>
+                <br> <br> <br>
+                <button type="button" class="BUTTON_CHX" onclick="closeForm()">Close</button>
+              </div>
+        <div class="form-popup" id="myForm1">
+
+        <button type="button" class="BUTTON_CHX" style="position: relative;top: -30px;float: right;"onclick="closeForm1()">×</button>
+              <h1>Graphic Designing Workshop</h1>
+            <p>The 2nd day of the 3-day workshop witnessed the creative mind of our host Shubham Singh Thakur. Students got amazing insights about the fundamental principles of graphic designing, roles and demands of a graphic designer in the competitive business and entrepreneurial startup world. In this one-day graphic design workshop, students discovered ways on how to apply design by structuring a visual hierarchy using space and type. Folks learned ways on how to develop creativity, got to know about the techniques to design a styled logo. The session was a huge success because of the lovely interactive audience.</p>
+            <br> <br> <br>
+            <button type="button" class="BUTTON_CHX" onclick="closeForm1()">Close</button>
+            </div>
+          <div class="form-popup" id="myForm2">
+          <button type="button" class="BUTTON_CHX" style="position: relative;top: -30px;float: right;"onclick="closeForm2()">×</button>
+                <h1>Web Development</h1>
+              <p>Our workshop on web-development was completed successfully and we can’t thank enough to our presenter Shantanu Saxena for such a valuable and cheerful session. Students were introduced to basic programming and got to know the basics of HTML, CSS and Javascript, they also got an overview on how they can nurture their skills and build a career in web development. Various resources were also provided to the freshies so that they can also give a kickstart to their web development journey.</p>
+              <br> <br> <br>
+              <button type="button" class="BUTTON_CHX" onclick="closeForm2()">Close</button>
+                </div>
+      <div class="col-md-6">
+        <div class="layer" style="margin: 60px 60px;">
+             <h1>The Upcoming Events</h1>
+             <ul>
+               <li><span>Content Writting</span><button class="open-button" onclick="openForm()">Open Form</button></li>
+               <br>
+              <li><span>Graphic Designing</span><button class="open-button" onclick="openForm1()">Open Form</button></li>
+               <br>
+               <li><span>Web Development</span><button class="open-button" onclick="openForm2()">Open Form</button></li>
+             </ul>
+             </div>
+        </div>
+      <div class="col-md-6">
+        <div class="box"style="margin: 60px 40px">
+            <h1>Explore</h1>
+          <h2>Our previous events and fest</h2>
+          <br>
+          <img class="hand" src="images/hand.png" alt="hand" height="90" width="90">
+          <br>
+            <div class="col-md-6"style="display: inline;">
+            <a href="../Timeline-Events(JLUG)/Timeline(events).html"><button type="images/button" class="button">Past And Present</button></a>
+              <img src="images/penguin.png" class="penguin"alt="penguin"height="160" width="160">
+      </div>
+      </div>
+      </div>
+</div>
+  </section>
+</body>
+</html>
