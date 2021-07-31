@@ -462,27 +462,27 @@ p {
 
 .container1 {
     display: inline-block;
-    position: relative;
-    left: 34px;
+    position:relative;
   }
 
 .container2 {
     display: block;
-    width: 60%;
-    margin: 56px auto 10px auto;
+    width: 47%;
     text-align: center;
     font-family: 'Calistoga', cursive;
     color: #2943b8;
     font-size: 45px;
+    padding: 50px 10px 20px 175px;
+    height:60px;
   }
 .para{
     font: 1.2em "Open Sans", sans-serif;
     color: #708090;
     font-size: 20px;
-    padding: 1.5rem;
-    margin-top: 2rem;
-    position: relative;
-    display:inline-block;
+    /* padding: 1.5rem;
+    margin-top: 2rem; */
+    /* position: relative;
+    display:inline-block; */
 }
 
 
@@ -495,35 +495,41 @@ p {
 
 
 .image{
-    padding: 0rem 5rem 0rem 1rem;
+    padding: 1rem 1rem 0rem 4rem; 
     max-width: 135px;
     margin: auto;
     display: block;
   }
-
+ 
 .about-container{
-    background-image: url("../images/blue-snow.png");
-    text-align: center;  
-    padding: 1px 5px; 
-}
-.item1 { grid-area: pg; }
-.item2 { grid-area: ss; }
+    background-image: url("images/blue-snow.png");
+/*  text-align: center;  
+    padding: 1px 5px;   */
+} 
+.item1 { grid-area: pn; }
+.item2 { grid-area: au; }
+.item3 { grid-area: pg; }
+.item4 { grid-area: ss; }
+
 
 .grid-container {
+  background-image: url("images/blue-snow.png");
+  text-align: center;  
+  padding: 3rem 0rem 0rem 0rem; 
   display: grid;
+  grid-template-columns: auto auto auto auto;
   grid-template-areas:
+    'pn au au au'
     'pg pg ss ss'
     'pg pg ss ss';
   grid-gap: 20px;
-  /* background-color: #2196F3; */
   padding: 10px;
 }
 
-.grid-container > div {
-  /* background-color: rgba(255, 255, 255, 0.8); */
+/* .grid-container > div {
   text-align: center;
-  padding: 40px 0px 0px 0px;
-}
+  padding: 20px 0px;
+} */
 
 /* Slideshow container */
 .slideshow-container {
@@ -533,8 +539,8 @@ p {
 }
 
 .mySlide{
-  width:500px;
-  height: 320px;
+  width: 480px;
+  height:290px;
 }
 
 /* The dots/bullets/indicators */
@@ -564,13 +570,25 @@ p {
   .container1{
     display: block;
     width: 60%;
-    margin: 56px auto;
+    margin: 56px 0px;;
     align-items: center;
     position: relative;
     }
-    
+  .container2 {
+    display: block;
+    width: 110%;
+    font-size: 160%;
+    padding: 4.5rem 1rem 2rem 0rem;
+    text-align:left;
+    /* height:60px; */
+  }
+  .image{
+    width: 90px;
+    padding: 0px;
+  }  
   .para{
-    margin-top: 0.2rem;
+    margin: 0rem;
+    font-size: 95%;
   }
 
   .mySlide{
@@ -585,15 +603,23 @@ p {
   .grid-container {
     display: grid;
     grid-template-areas:
-      'ss ss ss ss'
-      'pg pg pg pg';
-    grid-gap: 20px;
-    padding: 10px;
+      'pn au au'
+      'ss ss ss'
+      'ss ss ss'
+      'ss ss ss'
+      'pg pg pg'
+      'pg pg pg'
+      'pg pg pg'
+      'pg pg pg';
+    grid-gap: 10px;
+    /* padding: 10px; */
+    grid-template-columns: 26% 34% 30%;
   }
 
-  .grid-container > div {
+  /* .grid-container > div {
+    text-align: none;
     padding:0px;
-  }  
+  } */
 }
 
 
@@ -722,6 +748,3 @@ a.YouTube {
       margin-left:-15px
   }
 }
-
-
-
