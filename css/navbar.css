@@ -462,9 +462,8 @@ p {
 
 .container1 {
     display: inline-block;
-    position: absolute;
+    position: relative;
     left: 34px;
-    top: 37px; 
   }
 
 .container2 {
