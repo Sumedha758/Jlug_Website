@@ -577,8 +577,8 @@ p {
   .container2 {
     display: block;
     width: 110%;
-    font-size: 160%;
-    padding: 4.5rem 1rem 2rem 0rem;
+    font-size: 260%;
+    padding: 6.5rem 1rem 2rem 0rem;
     text-align:left;
     /* height:60px; */
   }
@@ -605,15 +605,13 @@ p {
     grid-template-areas:
       'pn au au'
       'ss ss ss'
-      'ss ss ss'
-      'ss ss ss'
-      'pg pg pg'
       'pg pg pg'
       'pg pg pg'
       'pg pg pg';
     grid-gap: 10px;
     /* padding: 10px; */
     grid-template-columns: 26% 34% 30%;
+    grid-template-rows: 100px auto auto auto auto;
   }
 
   /* .grid-container > div {
