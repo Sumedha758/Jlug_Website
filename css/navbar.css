@@ -348,6 +348,8 @@ p {
 }
 
 .modal {
+  width: 564px;
+  text-align: center;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -444,7 +446,8 @@ p {
     font-size: 10px;
   }
   .modal__form input {
-    font-size: 5px;
+    font-size: 10.2px;
+    padding: 6px 5px;
   }
   .btn {
     font-size: 12px;
