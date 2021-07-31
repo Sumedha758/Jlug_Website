@@ -154,8 +154,8 @@ section {
 
 #about {
   height: 200vh;
-  background: linear-gradient(to right top, #333333, #dd1818);
-  
+  /*background: linear-gradient(to right top, #333333, #dd1818); */
+  background-image: url(../images/blue-snow.png);
 }
 #contact {
   /* background-image: url(../images/Contact-Page-Background.png); */
