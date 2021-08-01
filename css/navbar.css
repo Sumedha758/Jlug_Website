@@ -467,7 +467,7 @@ p {
 
 .container2 {
     display: block;
-    width: 47%;
+    width: 68%;
     text-align: center;
     font-family: 'Calistoga', cursive;
     color: #2943b8;
@@ -495,8 +495,8 @@ p {
 
 
 .image{
-    padding: 1rem 1rem 0rem 4rem; 
-    max-width: 135px;
+    padding: 2rem 1rem 0rem 4rem; 
+    max-width: 190px;
     margin: auto;
     display: block;
   }
@@ -518,6 +518,7 @@ p {
   padding: 3rem 0rem 0rem 0rem; 
   display: grid;
   grid-template-columns: auto auto auto auto;
+  grid-template-columns: 190px auto auto;
   grid-template-areas:
     'pn au au au'
     'pg pg ss ss'
