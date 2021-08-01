@@ -502,7 +502,7 @@ p {
   }
  
 .about-container{
-    background-image: url("images/blue-snow.png");
+    background-image: url("../images/blue-snow.png");
 /*  text-align: center;  
     padding: 1px 5px;   */
 } 
