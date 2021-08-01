@@ -611,7 +611,7 @@ p {
     grid-gap: 10px;
     /* padding: 10px; */
     grid-template-columns: 26% 34% 30%;
-    /*grid-template-rows: 120px auto auto auto auto; */
+    grid-template-rows: 150px auto auto auto auto;
   }
 
   /* .grid-container > div {
