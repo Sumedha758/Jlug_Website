@@ -472,7 +472,7 @@ p {
     font-family: 'Calistoga', cursive;
     color: #2943b8;
     font-size: 45px;
-    padding: 50px 10px 20px 175px;
+    padding: 50px 10px 20px 100px;
     height:60px;
   }
 .para{
@@ -496,7 +496,7 @@ p {
 
 .image{
     padding: 2rem 1rem 0rem 4rem; 
-    max-width: 190px;
+    max-width: 180px;
     margin: auto;
     display: block;
   }
@@ -517,13 +517,13 @@ p {
   text-align: center;  
   padding: 3rem 0rem 0rem 0rem; 
   display: grid;
-  grid-template-columns: auto auto auto auto;
-  grid-template-columns: 190px auto auto;
+  grid-template-columns: auto auto 200px 300px;
+  grid-template-rows: 210px auto auto;
   grid-template-areas:
     'pn au au au'
     'pg pg ss ss'
     'pg pg ss ss';
-  grid-gap: 20px;
+  grid-gap: 15px;
   padding: 10px;
 }
 
