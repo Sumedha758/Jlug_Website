@@ -158,8 +158,7 @@ section {
   background-image: url(../images/blue-snow.png);
 }
 #contact {
-  /* background-image: url(../images/Contact-Page-Background.png); */
-  background: white;
+   background-image: url(../images/Contact-Page-Background.png); 
 }
 #events {
   background: linear-gradient(to right top, #bc4e9c, #f80759);
