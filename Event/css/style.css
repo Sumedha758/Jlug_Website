@@ -6,7 +6,6 @@ margin: 0px;
 padding: 0px;
 box-sizing: border-box;
 }
-
 @media only screen and (max-width: 600px) {
   .layer{
   position: relative;
@@ -25,7 +24,8 @@ box-sizing: border-box;
   background: #ffde59;
   border: 2px  solid #000000;
   box-shadow: 15px 14px 5px 0 #ffbd59;
-  height: 100vh;
+  height: 110vh;
+
   text-align: center;
 
   clip-path: polygon(0% 0%, /*left top */
@@ -113,6 +113,7 @@ span{
       font-size: 1.6rem;
     }
   .layer > h1 {
+
     font-size: 2.0rem;
     padding: 18px;
   }
@@ -120,10 +121,15 @@ span{
     margin: 100px 100px;
   }
 }
+
 .penguin {
     position: relative;
     left: 450px;
     bottom: 100px;
+
+.penguin {
+    position: absolute;
+
   }
 @media only screen and (max-width: 600px) {
   .button {
