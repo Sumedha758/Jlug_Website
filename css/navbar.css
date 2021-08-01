@@ -28,6 +28,7 @@ nav {
   position: sticky;
   background: #e9edfd;
   padding-left: 50px;
+  z-index: 100;
 }
 .logo {
   float: left;
