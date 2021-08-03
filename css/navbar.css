@@ -656,10 +656,8 @@ p {
 }
 .vm {
   position: relative;
-  font-size: 4vw;
+  font-size: large;
 }
-.b1b{
-  font-size:300%;}
 .vision-txt {
   position: relative;
   font-style: oblique;
@@ -678,7 +676,6 @@ p {
     margin: 2%;
     background-color: transparent;
     width: 30%;
-    height: 55%;
     perspective: 1000px;
   }
   .flip-inner {
