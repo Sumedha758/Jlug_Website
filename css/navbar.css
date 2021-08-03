@@ -155,6 +155,8 @@ section {
 
 #about {
   height: 200vh;
+  display:flex;
+  flex-direction: column;
   /*background: linear-gradient(to right top, #333333, #dd1818); */
   background-image: url(../images/blue-snow.png);
 }
@@ -620,6 +622,136 @@ p {
   } */
 }
 
+/*About us Sub page-VISION MISSION GOAL*/
+/*About us Sub page--> VISION MISSION GOAL*/
+#vis_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+}
+
+.vision-logo {
+  position: relative;
+  width: 50px;
+  top: -4.2%;
+  background-color: #eef6fc;
+  border-radius: 45%;
+}
+.mission-logo {
+  position: relative;
+  width: 50px;
+  top: -6.2%;
+  background-color: #eef6fc;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+.goal-logo {
+  position:relative;
+  width: 50px;
+  top: -6%;
+  background-color: #eef6fc;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+.vm {
+  position: relative;
+  font-size:xx-large;
+}
+.vision-txt {
+  font-size: x-large;
+  font-style: oblique;
+}
+.mission-txt{
+    font-size: x-large;
+    font-style: oblique;
+}
+.goal-txt{
+    font-size: x-large;
+    font-style: oblique;
+}
+
+/*blck8*/
+.flip-card {
+    margin: 2%;
+    background-color: transparent;
+    width: 30%;
+  height:55%;
+    perspective: 1000px;
+  }
+  .flip-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  .flip-card:hover .flip-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .b1f,
+  .b1b {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .b1f {
+    background-color:#ffbd59;
+    color:#111;
+    justify-content: center;
+  }
+  
+  .b1b {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+  }
+@media only screen and (max-width: 895px) {
+  #about{
+    height: 365vh;
+  }
+  .para{
+    height:100vh;
+    overflow:auto;
+  }
+  #vis_container {
+    flex-direction: column;
+    height: 160vh;
+  }
+  .vision-logo{
+    top:-5%;
+  }
+  .vision-logo{
+    top:-6.5%;
+  }
+  .goal-logo {
+    top: -9%;
+    width: 50px;
+  }
+  .flip-card {
+      width: 60%;
+    margin-bottom: 15%;
+  }
+  .vm {
+    font-size:xx-large;
+  }
+  .vision-txt {
+    font-size:large;
+  }
+  .mission-txt{
+      font-size: x-large;
+  }
+  .goal-txt{
+      font-size:large;
+  }
+}
 
 /* ///////////////////////////////////////////////////////////////////////////////////// */
 /* Contact Us */
