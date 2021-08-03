@@ -657,13 +657,14 @@ p {
 }
 .vm {
   position: relative;
-  font-size: large;
+  font-size:xx-large;
 }
 .vision-txt {
+  font-size: x-large;
   font-style: oblique;
 }
 .mission-txt{
-    font-size: medium;
+    font-size: x-large;
     font-style: oblique;
 }
 .goal-txt{
@@ -714,40 +715,43 @@ p {
   }
 @media only screen and (max-width: 895px) {
   #about{
-    height: 300vh;
+    height: 365vh;
   }
-  
+  .para{
+    height:100vh;
+    overflow:auto;
+  }
   #vis_container {
     flex-direction: column;
+    height: 160vh;
   }
   .vision-logo{
     top:-5%;
   }
   .vision-logo{
-    top:-10%;
+    top:-6.5%;
   }
   .goal-logo {
-    top: -12%;
+    top: -9%;
     width: 50px;
   }
   .flip-card {
       width: 60%;
-    margin: 5%;
+    margin-bottom: 15%;
   }
   .vm {
     font-size:xx-large;
   }
   .vision-txt {
-    font-size: small;
+    font-size:large;
   }
   .mission-txt{
-      font-size: medium;
+      font-size: x-large;
   }
   .goal-txt{
-      font-size:medium;
+      font-size:large;
   }
 }
-
 
 /* ///////////////////////////////////////////////////////////////////////////////////// */
 /* Contact Us */
