@@ -720,7 +720,7 @@ p {
   }
   #vis_container {
     flex-direction: column;
-    height: 120vh;
+    height: 140vh;
   }
   .goal-logo {
     top: -12%;
