@@ -462,6 +462,10 @@ p {
 /* ///////////////////////////////////////////////////////////////////////////////////// */
 /* About Us */
 
+.grid-container{
+  flex:1;}
+#vis_container{
+  flex:1.2;}
 .container1 {
     display: inline-block;
     position:relative;
