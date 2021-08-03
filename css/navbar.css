@@ -658,9 +658,10 @@ p {
   position: relative;
   font-size: 4vw;
 }
+.b1b{
+  font-size:300%;}
 .vision-txt {
   position: relative;
-  font-size:300%;
   font-style: oblique;
 }
 .mission-txt{
