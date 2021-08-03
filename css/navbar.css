@@ -628,7 +628,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  height:120vh;
+  height:100vh;
 }
 
 .vision-logo {
@@ -663,7 +663,7 @@ p {
   font-style: oblique;
 }
 .mission-txt{
-    font-size: x-large;
+    font-size: medium;
     font-style: oblique;
 }
 .goal-txt{
