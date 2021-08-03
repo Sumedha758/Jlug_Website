@@ -715,7 +715,7 @@ p {
   }
 @media only screen and (max-width: 895px) {
   #about{
-    height: 260vh;
+    height: 300vh;
   }
   .grid-container{
   flex:1;}
