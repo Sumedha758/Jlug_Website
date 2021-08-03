@@ -28,6 +28,7 @@ nav {
   position: sticky;
   background: #e9edfd;
   padding-left: 50px;
+  z-index: 100;
 }
 .logo {
   float: left;
@@ -158,8 +159,7 @@ section {
   background-image: url(../images/blue-snow.png);
 }
 #contact {
-  /* background-image: url(../images/Contact-Page-Background.png); */
-  background: white;
+   background-image: url(../images/Contact-Page-Background.png); 
 }
 #events {
   background: linear-gradient(to right top, #bc4e9c, #f80759);
@@ -348,7 +348,7 @@ p {
 }
 
 .modal {
-  width: 564px;
+  width: 586px;
   text-align: center;
   position: fixed;
   top: 50%;
@@ -649,12 +649,13 @@ p {
 .Information h1 {
   font-family: 'Eczar', serif; 
   margin-top:40px;
-  margin-left: 12px;
+/*   margin-left: 12px; */
   margin-bottom: -7px;
 }
 .Information h2 {
   font-family: 'Calistoga', cursive;
   margin: 0.5;
+  font-size:20px;
 }
 .content {
   font-family: 'Open Sans', sans-serif;

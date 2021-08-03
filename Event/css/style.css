@@ -6,11 +6,7 @@ margin: 0px;
 padding: 0px;
 box-sizing: border-box;
 }
-@media only screen and (max-width: 600px) {
-  .layer,.box {
-    height: 90vh;
-  }
-}
+
 @media only screen and (max-width: 600px) {
   .layer{
   position: relative;
@@ -29,7 +25,9 @@ box-sizing: border-box;
   background: #ffde59;
   border: 2px  solid #000000;
   box-shadow: 15px 14px 5px 0 #ffbd59;
-  height: 520px;
+
+  height: 100vh;
+
   text-align: center;
 
   clip-path: polygon(0% 0%, /*left top */
@@ -67,6 +65,7 @@ box-sizing: border-box;
   font-size: 2rem;
   line-height: 1.5;
 }
+
 .box > h1{
   font-size: 3rem;
   font-family: 'Calistoga';
@@ -111,10 +110,29 @@ span{
   font-size: 2rem;
   font-family: 'Open Sans';
 }
+@media only screen and (max-width: 719px) {
+  span {
+      font-size: 1.6rem;
+    }
+  .layer > h1 {
+
+    font-size: 2rem;
+    margin: 13px;
+
+
+  }
+  .layer {
+    margin: 100px 100px;
+  }
+}
+
+
+
+
 .penguin {
-    position: relative;
-    left: 450px;
-    bottom: 100px;
+    position: absolute;
+
+
   }
 @media only screen and (max-width: 600px) {
   .button {
