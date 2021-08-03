@@ -628,6 +628,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+  height:120vh;
 }
 
 .vision-logo {
@@ -675,7 +676,7 @@ p {
     margin: 2%;
     background-color: transparent;
     width: 30%;
-  height:550%;
+  height:55%;
     perspective: 1000px;
   }
   .flip-inner {
