@@ -722,6 +722,12 @@ p {
     flex-direction: column;
     height: 140vh;
   }
+  .vision-logo{
+    top:-5%;
+  }
+  .vision-logo{
+    top:-10%;
+  }
   .goal-logo {
     top: -12%;
     width: 50px;
@@ -734,7 +740,7 @@ p {
     font-size:xx-large;
   }
   .vision-txt {
-    font-size: medium;
+    font-size: small;
   }
   .mission-txt{
       font-size: medium;
