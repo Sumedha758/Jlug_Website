@@ -632,7 +632,6 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  height:100vh;
 }
 
 .vision-logo {
@@ -720,11 +719,10 @@ p {
   }
 @media only screen and (max-width: 895px) {
   #about{
-    height: 240vh;
+    height: 260vh;
   }
   #vis_container {
     flex-direction: column;
-    height: 140vh;
   }
   .vision-logo{
     top:-5%;
