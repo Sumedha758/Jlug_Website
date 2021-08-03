@@ -462,10 +462,6 @@ p {
 /* ///////////////////////////////////////////////////////////////////////////////////// */
 /* About Us */
 
-.grid-container{
-  flex:1;}
-#vis_container{
-  flex:1.2;}
 .container1 {
     display: inline-block;
     position:relative;
@@ -721,6 +717,10 @@ p {
   #about{
     height: 260vh;
   }
+  .grid-container{
+  flex:1;}
+#vis_container{
+  flex:2;}
   #vis_container {
     flex-direction: column;
   }
