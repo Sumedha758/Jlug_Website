@@ -660,15 +660,15 @@ p {
 }
 .vision-txt {
   position: relative;
-  font-size:larger;
+  font-size:80%;
   font-style: oblique;
 }
 .mission-txt{
-    font-size: x-large;
+    font-size: 150%;
     font-style: oblique;
 }
 .goal-txt{
-    font-size: xx-large;
+    font-size: 170%;
     font-style: oblique;
 }
 
