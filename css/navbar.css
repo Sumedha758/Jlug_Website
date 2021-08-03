@@ -676,6 +676,7 @@ p {
     margin: 2%;
     background-color: transparent;
     width: 30%;
+  height:100%;
     perspective: 1000px;
   }
   .flip-inner {
