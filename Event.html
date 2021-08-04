@@ -7,27 +7,11 @@ padding: 0px;
 box-sizing: border-box;
 }
 
-@media only screen and (max-width: 600px) {
-  .layer{
-  position: relative;
-  bottom: 160px;
-  left: 25px;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .row {
-    display: flex;
-    flex-direction: column-reverse;
-  }
-}
 .layer{
   background: #ffde59;
   border: 2px  solid #000000;
   box-shadow: 15px 14px 5px 0 #ffbd59;
-
   height: 100vh;
-
   text-align: center;
 
   clip-path: polygon(0% 0%, /*left top */
@@ -65,15 +49,22 @@ box-sizing: border-box;
   font-size: 2rem;
   line-height: 1.5;
 }
-
-.box > h1{
+.heading{
+  display: none;
+}
+.pmpt > h1{
   font-size: 3rem;
+  font-family: 'Calistoga';
+  text-align: center;
+}
+.heading > h1{
+  font-size: 3.5rem;
   font-family: 'Calistoga';
   text-align: center;
 }
 .box > h2 {
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 2.8rem;
   font-family: 'Open Sans';
 }
 .hand {
@@ -115,30 +106,43 @@ span{
       font-size: 1.6rem;
     }
   .layer > h1 {
-
     font-size: 2rem;
-    margin: 13px;
-
-
+    margin: 21px;
   }
   .layer {
     margin: 100px 100px;
+
   }
 }
-
-
-
-
+@media only screen and (max-width: 719px) {
+  .heading {
+  display: block;
+  }
+  .pmpt {
+    display: none;
+  }
+}
+@media only screen and (max-width: 719px) {
+  .tpr {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+}
+.tpr{
+  display: inline-flex;
+}
 .penguin {
-    position: absolute;
-
-
+    position: relative;
+    left: 450px;
+    bottom: 100px;
   }
 @media only screen and (max-width: 600px) {
   .button {
-      width: 75%;
+      width: 70%;
       position: absolute;
       display: inline;
+      margin-right: 10px;
     }
 }
 @media only screen and (max-width: 600px) {
@@ -222,7 +226,7 @@ span{
     .form-popup p{
       text-align: center;
       font-style: 'Open Sans';
-      font-size: 1.2rem;
+      font-size: 1.1rem;
     }
 ul{
   list-style-type: circle;
