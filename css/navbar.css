@@ -482,6 +482,7 @@ p {
     color: #708090;
     font-size: 20px;
     text-align: justify;
+    padding: 1.2rem;
     /* position: relative;
     display:inline-block; */
 }
@@ -518,7 +519,7 @@ p {
   text-align: center;  
   padding: 3rem 0rem 0rem 0rem; 
   display: grid;
-  grid-template-columns: 200px 140px auto 200px 300px;
+  grid-template-columns: 200px 140px auto 300px 300px;
   grid-template-rows: 210px 300px;
   grid-template-areas:
     'pn pn au au au'
@@ -540,8 +541,8 @@ p {
 }
 
 .mySlide{
-  width: 480px;
-  height:290px;
+  width: 544px;
+  height:331px;
 }
 
 /* The dots/bullets/indicators */
