@@ -393,7 +393,7 @@ p {
 
 .modal__form label {
   font-size: 1.7rem;
-  font-weight: 500;
+  font-weight: 1000;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -402,7 +402,7 @@ p {
   padding: 1rem 1.5rem;
   border: 1px solid #ddd;
   border-radius: 0.5rem;
-  background-color: rgb(238, 238, 182);
+  background-color: rgb(241 242 246);
 }
 
 .modal__form button {
