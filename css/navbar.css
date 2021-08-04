@@ -469,20 +469,19 @@ p {
 
 .container2 {
     display: block;
-    width: 68%;
+    width: 60%;
     text-align: center;
     font-family: 'Calistoga', cursive;
     color: #2943b8;
     font-size: 45px;
-    padding: 50px 10px 20px 100px;
+    padding: 50px 10px 20px 0px;
     height:60px;
   }
 .para{
     font: 1.2em "Open Sans", sans-serif;
     color: #708090;
     font-size: 20px;
-    /* padding: 1.5rem;
-    margin-top: 2rem; */
+    text-align: justify;
     /* position: relative;
     display:inline-block; */
 }
@@ -499,7 +498,7 @@ p {
 .image{
     padding: 2rem 1rem 0rem 4rem; 
     max-width: 180px;
-    margin: auto;
+    margin: 0px 50px 0px 175px;
     display: block;
   }
  
@@ -519,11 +518,11 @@ p {
   text-align: center;  
   padding: 3rem 0rem 0rem 0rem; 
   display: grid;
-  grid-template-columns: auto auto 200px 300px;
+  grid-template-columns: 200px 140px auto 200px 300px;
   grid-template-rows: 210px 300px;
   grid-template-areas:
-    'pn au au au'
-    'pg pg ss ss';
+    'pn pn au au au'
+    'pg pg pg ss ss';
   grid-gap: 15px;
   padding: 10px;
 }
@@ -587,6 +586,7 @@ p {
   .image{
     width: 90px;
     padding: 0px;
+    margin: auto;
   }  
   .para{
     margin: 0rem;
