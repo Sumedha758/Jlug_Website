@@ -11,7 +11,8 @@ box-sizing: border-box;
   background: #ffde59;
   border: 2px  solid #000000;
   box-shadow: 15px 14px 5px 0 #ffbd59;
-  height: 100vh;
+  height: 80vh;
+  width: 550px;
   text-align: center;
 
   clip-path: polygon(0% 0%, /*left top */
@@ -46,13 +47,13 @@ box-sizing: border-box;
   padding-bottom:  60px;
   font-family: 'Calistoga';
   text-align: center;
-  font-size: 2rem;
+  font-size: 2.5rem;
   line-height: 1.5;
 }
-.heading{
+.heading {
   display: none;
 }
-.pmpt > h1{
+.heading1 > h1{
   font-size: 3rem;
   font-family: 'Calistoga';
   text-align: center;
@@ -111,16 +112,23 @@ span{
   }
   .layer {
     margin: 100px 100px;
-
+    width: 75%;
+    height: 100vh;
   }
 }
 @media only screen and (max-width: 719px) {
   .heading {
   display: block;
   }
-  .pmpt {
+  .heading1 {
     display: none;
   }
+  .pngitem2{
+    display: none;
+  }
+}
+.pngitem1{
+  display: none;
 }
 @media only screen and (max-width: 719px) {
   .tpr {
@@ -129,25 +137,20 @@ span{
     text-align: center;
   }
 }
+@media only screen and (max-width: 791px) {
+  .pngitem1{
+    display: block;
+    width: 70%;
+  }
+}
 .tpr{
   display: inline-flex;
 }
-.penguin {
-    position: relative;
-    left: 450px;
-    bottom: 100px;
-  }
 @media only screen and (max-width: 600px) {
   .button {
       width: 75%;
-      display: flex;
       align-items: center;
       margin-right: 20px;
-    }
-}
-@media only screen and (max-width: 600px) {
-  .penguin {
-            display: none;
     }
 }
 @media only screen and (max-width: 600px) {
@@ -232,4 +235,6 @@ ul{
   padding: 0px;
   overflow: hidden;
 }
-
+.pngitem2{
+  margin-left: 10px;
+}
