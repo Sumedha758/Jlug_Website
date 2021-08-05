@@ -667,14 +667,20 @@ p {
   font-size:xx-large;
 }
 .vision-txt {
+  position:absolute;
+  top:20%;
   font-size: x-large;
   font-style: oblique;
 }
 .mission-txt{
+  positin:absolute;
+  top:30%;
     font-size: x-large;
     font-style: oblique;
 }
 .goal-txt{
+  position:absolute;
+  top:20%;
     font-size: x-large;
     font-style: oblique;
 }
