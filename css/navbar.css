@@ -656,19 +656,31 @@ p {
   border-bottom-left-radius: 50%;
   border-bottom-right-radius: 50%;
 }
+.vp{
+  position:relative;
+  top:26%;
+  font-size:xx-large;
+}
 .vm {
   position: relative;
+  top:22%;
   font-size:xx-large;
 }
 .vision-txt {
+  position:absolute;
+  top:20%;
   font-size: x-large;
   font-style: oblique;
 }
 .mission-txt{
+  position:absolute;
+  top:30%;
     font-size: x-large;
     font-style: oblique;
 }
 .goal-txt{
+  position:absolute;
+  top:20%;
     font-size: x-large;
     font-style: oblique;
 }
@@ -716,10 +728,10 @@ p {
   }
 @media only screen and (max-width: 895px) {
   #about{
-    height: 365vh;
+    height: fit-content;
   }
   .para{
-    height:100vh;
+    height:fit-content;
     overflow:auto;
   }
   #vis_container {
@@ -741,6 +753,9 @@ p {
     margin-bottom: 15%;
   }
   .vm {
+    font-size:xx-large;
+  }
+  .vp{
     font-size:xx-large;
   }
   .vision-txt {
