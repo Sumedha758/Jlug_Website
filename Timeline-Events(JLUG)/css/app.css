@@ -7,17 +7,17 @@
 	margin-left: 20px;
 }
 p{
-  color: black;
+  color: white;
   font-size: 18px;
 }
 body {
     
-    font-family: 'popins';
+     font-family: 'Exo', sans-serif;
     font-size: 16px;
-  background-color: white;
+  background-color: rgb(30, 7, 51);
     line-height: 25px;
     overflow-x: hidden;
-	background-image: url("pictures\timeline blue bg.jpg");
+	
 }
 .section .section-wrapper > .section-content {
     padding: 80px 0px;
@@ -26,9 +26,6 @@ body {
 @import url('https://fonts.googleapis.com/css?family=Exo:400,700');
 
 
-body{
-    font-family: 'Exo', sans-serif;
-}
 
 
 
@@ -644,9 +641,9 @@ span.divider.center {
 }
 
 @media (max-width: 767px) {
-  /*.panel-group.timeline .timeline-item .timeline-btn{
-    display: none;
-  }*/
+  .panel-group.timeline .timeline-item .timeline-btn{
+    margin-left:-60px;
+  }
   #ballWrapper{
 	  display: none;
   }
