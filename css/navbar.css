@@ -673,7 +673,7 @@ p {
   font-style: oblique;
 }
 .mission-txt{
-  positin:absolute;
+  position:absolute;
   top:30%;
     font-size: x-large;
     font-style: oblique;
