@@ -60,16 +60,16 @@ nav .container ul li a {
   padding: 10px 20px;
   color: black;
 }
-nav .container ul li.active {
-  background-color: yellow;
+nav .container ul .subscribe a {
+  background-color: #ffbd59 ;
   border-radius: 17px;
-  transition: 0.3 ease background-color;
 }
 nav .container ul li.active a {
-  color: black;
+  color: red;
+  transition: 0.3 ease background-color;
 }
 nav .container ul li a:hover {
-  color: yellowgreen;
+  font-size: 23px;
   transition: 0.3 ease background-color;
 }
 
