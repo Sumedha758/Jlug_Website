@@ -128,6 +128,10 @@ nav .container ul li a:hover {
     border-bottom: 1px solid rgba(255,255,255,0.1);
 
   }
+  nav .container ul .subscribe a {
+  background-color: #e9edfd ;
+  border-radius: 17px;
+}
   nav .container ul li a {
     color: black;
     font-size: 20px;
