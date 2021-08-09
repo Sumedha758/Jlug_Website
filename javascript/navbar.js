@@ -80,6 +80,14 @@ document.addEventListener('keydown', function (e) {
 });
 
 /////////////////////////////////////////////////////////////////////////
+//Discover more button functionality
+const section1 = document.querySelector('#about');
+const btnScrollTo = document.querySelector('.btn--scroll-to');
+btnScrollTo.addEventListener('click', function (e) {
+  section1.scrollIntoView({ behavior: 'smooth' });
+});
+
+/////////////////////////////////////////////////////////////////////////
 //Implementing AboutUs Auto-Slideshow
 var slideIndex = 0;
     showSlides();
