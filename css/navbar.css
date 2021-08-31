@@ -68,10 +68,10 @@ nav .container ul li.active a {
   color: red;
   transition: 0.3 ease background-color;
 }
-nav .container ul li a:hover {
+/*nav .container ul li a:hover {
   font-size: 23px;
   transition: 0.3 ease background-color;
-}
+}*/
 
 .menu-toggle {
   color: blue;
